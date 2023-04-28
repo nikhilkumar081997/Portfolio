@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4c7987317.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <div class="main-logo"><span><img src="images/newton.jpg" class="logo"></span><span> Newton School</span></div>     -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Nikhil kumar</span><br></h1>
+            </div>
+        </div>
+    </div>
+    
+<!----------------------------- about ------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>To succeed an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me to achieve personal as well as organisational development  </p>
+
+                    <div class="tab-tities">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span></span><br>HTML</li>
+                            <li><span></span><br>CSS</li>
+                            <li><span></span><br>Javascript</li>
+                            <li><span></span><br>Bootstrap</li>
+                            <li><span></span><br>React Js</li>
+                            <li><span></span><br>Material Ui</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        
+                        <ul>
+                            <li><span>Frontend Developer</span><br>ConsultIT Technologies Pvt Ltd</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Master of Computer Application</li>
+                            <li><b>College - </b>Dewan Institute of Management Studies Meerut</li>
+                            <li><span>2019</span><br>Bachlor of Computer Application</li>
+                            <li><b>College - </b>Dewan Institute of Management Studies Meerut</li>
+                            <li><span>2015</span><br>Intermediate</li>
+                            <li><b>School - </b>Godwin Public School Meerut</li>
+                            <li><span>2013</span><br>High School</li>
+                            <li><b>School - </b>Guru Tegh Bahadur Public School Meerut</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ services ------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum deserunt dolorem magni laborum. Dignissimos quasi distinctio laudantium soluta repellendus rem natus iusto corrupti nam doloribus, perspiciatis, sapiente harum eos.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum deserunt dolorem magni laborum. Dignissimos quasi distinctio laudantium soluta repellendus rem natus iusto corrupti nam doloribus, perspiciatis, sapiente harum eos.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum deserunt dolorem magni laborum. Dignissimos quasi distinctio laudantium soluta repellendus rem natus iusto corrupti nam doloribus, perspiciatis, sapiente harum eos.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------- portfolio --------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented peoplr around the world. Download it from play store.</p>
+                        <a href="a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Unit Converter</h3>
+                        <p>The app you to convert value from one unit to another unit.Length, Weight, Area, Temprature, Volume, Time convert these values in the app.</p>
+                        <a href="https://glistening-eclair-ca0f3b.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>A perfect web application to buy or sell any kind of products </p>
+                        <a href="a"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--------------------------------------------- contact ------------------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Nikhilsahaniya@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9027963867</p>
+                    <div class="social-icons">
+                        
+                        <a href="https://github.com/nikhilkumar081997" target=”_blank”><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nikhil-kumar-aa5511196/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:nikhilsahaniya@gmail.com" target=”_blank”>
+                            <i class="target share-icon fa-solid fa-envelope"></i>
+                        </a>
+                        
+                    </div>
+                    <a href="Nikhil_Kumar_Resume_.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All Copyright reserved Nikhil Kumar. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab (tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+    </script>
+
+    <script>
+
+       var sidemeu = document.getElementById("sidemenu");
+
+       function openmenu() {
+        sidemeu.style.right = "0";
+       }
+       function closemenu() {
+        sidemeu.style.right = "-200px";
+       }
+
+    </script>
+    
+</body>
+</html>
+
+
+
